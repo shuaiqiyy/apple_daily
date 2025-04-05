@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(to bottom, #0D0214, #431765);
+
+}
+
+.two_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.two_grid_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.three_grid_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.upper-vertical {}
+
+.lower-vertical {}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+h1,h2,h3,h4,p {
+  color: #fff;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
